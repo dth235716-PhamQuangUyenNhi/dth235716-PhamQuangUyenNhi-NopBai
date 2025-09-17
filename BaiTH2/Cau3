@@ -1,0 +1,9 @@
+#tính điểm trung bình
+print("Chương trình tính điểm trung bình")
+print("Nhập điểm các môn:")
+toan=float(input("Nhập điểm Toán:"))
+ly=float(input("Nhập điểm lý:"))
+hoa=float(input("Nhập điểm hóa:"))
+dtb=(toan+ly+hoa)/3
+print("Điểm trung bình=",dtb)
+print("Điểm làm tròn=",round(dtb,2))
