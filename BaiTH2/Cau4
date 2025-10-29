@@ -1,0 +1,21 @@
+#Câu 4: Python hỗ trợ những kiểu dữ liệu cơ bản nào?
+#Trả lời: Python hỗ trợ các kiểu dữ liệu cơ bản sau:
+# 1. Số: int (số nguyên), float (số thực), complex (số phức)
+# 2. Chuỗi (String): Kiểu dữ liệu để lưu trữ văn bản
+# 3. Giá trị logic (Boolean)
+# 4. Dãy: Danh sách (List),  Tuple (Tuple),   
+# 5. Tâp hợp: Set (mutable), Dictionary (Từ điển)
+# 6. Kiểu NoneType: Đại diện cho giá trị rỗng hoặc không xác định
+#Ví dụ minh họa:
+a = 10          # int
+b = 3.14        # float
+c = 1+2j        # complex
+s = "hello"     # str
+lst = [1,2,3]   # list
+t = (1,2,3)     # tuple
+d = {"k": 1}    # dict
+st = {1,2,3}    # set
+bs = b"bytes"   # bytes
+f = None        # NoneType
+for x in (a,b,c,s,lst,t,d,st,bs,f):
+    print(type(x))

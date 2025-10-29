@@ -1,0 +1,45 @@
+#Câu 5: Trình bày các loại ghi chú trong Python.
+"""
+Các loại ghi chú (comments) trong Python — ngắn gọn:
+
+1. Bình luận một dòng: dùng dấu #.
+
+2. Bình luận nội tuyến (inline): sau mã cùng dòng. 
+
+3. Block comment: nhiều dòng liên tiếp bắt đầu bằng # (thường theo PEP 8).
+
+4. Docstring: chuỗi ba nháy ("""...""" hoặc '''...''') dùng làm tài liệu cho module, hàm, lớp. Đây là chuỗi (string) nhưng thường được dùng làm chú thích/tài liệu.
+
+5. Chuỗi nhiều dòng không gán (triple-quoted) có thể dùng như chú thích tạm — không khuyến nghị thay docstring.
+
+6. Ghi chú đặc biệt: shebang (#!), encoding header (# -- coding: utf-8 --), chỉ thị cho trình lint/type checker (# noqa, # type: ignore), TODO/FIXME.
+"""
+# Ví dụ minh họa các loại ghi chú trong Python
+
+# 1) Bình luận một dòng
+# Đây là một bình luận
+
+# 2) Bình luận nội tuyến
+x = 42  # biến chứa tuổi
+
+# 3) Block comment
+# Dòng 1 của block comment
+# Dòng 2 của block comment
+
+# 4) Docstring (dùng cho module/hàm/lớp)
+def greet(name):
+    """Trả về chuỗi chào cho tên truyền vào.
+    Đây là docstring của hàm.
+    """
+    return f"Hello, {name}"
+
+# 5) Chuỗi nhiều dòng không gán (không khuyến nghị thay docstring)
+"""
+Đây là một chuỗi nhiều dòng không được gán cho biến.
+Nó sẽ bị bỏ qua khi thực thi nhưng không phải docstring cho hàm/module.
+"""
+
+# 6) Ghi chú đặc biệt
+# TODO: thêm xử lý lỗi
+# noqa: bỏ qua cảnh báo lint cho dòng này
+# type: ignore  # bỏ qua kiểm tra kiểu cho dòng này
