@@ -1,0 +1,4 @@
+#Cau 8: Trình bày các loại lỗi khi lập trình và cách bắt lỗi trong Python.
+#Syntax Error → Sai cú pháp → Phải sửa code.
+#Logic Error → Kết quả sai → Phải kiểm tra lại thuật toán.
+#Runtime Error (Exception) → Xảy ra khi chạy → Có thể xử lý bằng try-except

@@ -1,0 +1,7 @@
+#Câu 1: Kiểm tra năm nhuần
+print("Chương trình kiểm tra năm nhuẩn")
+year=int(input("Mời Thim nhập vào 1 năm:"))
+if (year %4==0 and year %100!=0) or year %400==0:
+    print("Näm", year, "là năm nhuần")
+else:
+    print("Nam", year, "không nhuần")

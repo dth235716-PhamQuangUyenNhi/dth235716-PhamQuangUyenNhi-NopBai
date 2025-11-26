@@ -1,0 +1,4 @@
+#Cau 7: Trình bày một số cách nhập dữ liệu từ bàn phím.
+#input() để lấy dữ liệu
+#split() + map() để nhập nhiều giá trị
+#vòng lặp nếu cần nhập nhiều dòng
